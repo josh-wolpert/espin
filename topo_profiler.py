@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 # get_ipython().magic(u'matplotlib inline')
 
-topo = np.loadtxt('../../data/topo.asc', delimiter=',')
+topo = np.loadtxt('data/topo.asc', delimiter=',')
 
 plt.figure(0)
 plt.plot(topo[0,:], label='North')
@@ -18,4 +18,5 @@ plt.ylabel('Elevation (m)')
 plt.xlabel('<-- West    East -->')
 plt.legend(loc = 'lower left')
 
-plt.show()
+#plt.show()
+plt.savefig('media/Your_profiles.png')
