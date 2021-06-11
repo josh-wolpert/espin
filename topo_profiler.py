@@ -18,5 +18,5 @@ plt.ylabel('Elevation (m)')
 plt.xlabel('<-- West    East -->')
 plt.legend(loc = 'lower left')
 
-#plt.show()
-plt.savefig('media/Your_profiles.png')
+plt.show()
+#plt.savefig('media/Your_profiles.png')
